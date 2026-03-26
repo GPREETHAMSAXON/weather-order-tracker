@@ -60,7 +60,7 @@ npm start
 1. **Load Orders** → Reads `data/orders.json`
 2. **Concurrent Weather Fetch** → Fires API calls for ALL cities simultaneously using `Promise.allSettled`
 3. **Delay Logic** → If weather is `Rain`, `Snow`, `Extreme`, or `Thunderstorm` → status becomes `Delayed`
-4. **AI Apology** → Google Gemini generates a personalized delay notification for each affected customer
+4. **AI Apology** → Groq/Llama generates a personalized delay notification
 5. **Error Resilience** → Invalid cities (like `InvalidCity123`) are caught and logged without crashing the script
 6. **Output** → Updated orders saved to `data/orders_updated.json` with a summary report printed to console
 
@@ -104,7 +104,7 @@ npm start
 **3. AI Apology Message Generation**
 > "Generate a short, warm, personalized apology message for a delivery delay caused by weather. Use the customer's first name, mention the specific weather condition, and keep it to 2-3 sentences."
 >
-> **Decision:** Used Google Gemini (gemini-2.0-flash) with a structured prompt that includes customer name, city, and weather details. Added a fallback template in case the AI service is unavailable.
+>> **Decision:** Used Groq (llama-3.3-70b-versatile) with a structured prompt that includes customer name, city, and weather details. Added a fallback template in case the AI service is unavailable.
 
 ---
 
