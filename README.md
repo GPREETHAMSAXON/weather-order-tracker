@@ -2,7 +2,7 @@
 
 **Yellow.ai — Automation Intern Assignment 2**
 
-An intelligent Node.js script that monitors weather conditions for pending delivery orders and automatically flags potential delays. When bad weather is detected, it generates personalized apology messages using Google Gemini AI.
+An intelligent Node.js script that monitors weather conditions for pending delivery orders and automatically flags potential delays. When bad weather is detected, it generates personalized apology messages using Groq Llama AI.
 
 ---
 
