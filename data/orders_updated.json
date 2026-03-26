@@ -1,0 +1,46 @@
+[
+  {
+    "order_id": "1001",
+    "customer": "Alice Smith",
+    "city": "New York",
+    "status": "On Track",
+    "weather": "Clouds — broken clouds"
+  },
+  {
+    "order_id": "1002",
+    "customer": "Bob Jones",
+    "city": "Mumbai",
+    "status": "Delayed",
+    "weather": "Smoke — smoke",
+    "apology_message": "Bob, I'm so sorry for the delay in your delivery to Mumbai, which was unfortunately impacted by the dense smoke in the area. I can imagine how frustrating this must be for you, and I want to assure you that we're working hard to get your package to you as soon as possible. Please know that we're doing our best to get back on track despite the challenging conditions."
+  },
+  {
+    "order_id": "1003",
+    "customer": "Charlie Green",
+    "city": "London",
+    "status": "On Track",
+    "weather": "Clouds — scattered clouds"
+  },
+  {
+    "order_id": "1004",
+    "customer": "InvalidCity123",
+    "city": "InvalidCity123",
+    "status": "Error",
+    "notes": "Weather API error for \"InvalidCity123\": 404 — city not found"
+  },
+  {
+    "order_id": "1005",
+    "customer": "Diana Patel",
+    "city": "Cherrapunji",
+    "status": "On Track",
+    "weather": "Clear — clear sky"
+  },
+  {
+    "order_id": "1006",
+    "customer": "Ethan Brooks",
+    "city": "Bergen",
+    "status": "Delayed",
+    "weather": "Snow — light shower sleet",
+    "apology_message": "Ethan, I'm so sorry your delivery was delayed, and I can only imagine how frustrating that must be, especially on a day when the light shower of sleet is making travel a bit more challenging in Bergen. Please know we're working hard to get your package to you as soon as possible. We appreciate your patience and understanding during this time."
+  }
+]
