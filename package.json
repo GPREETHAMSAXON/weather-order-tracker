@@ -1,0 +1,15 @@
+{
+  "name": "weather-order-tracker",
+  "version": "1.0.0",
+  "description": "Weather-aware order delay tracker with AI-generated apology messages",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "groq-sdk": "^1.1.2"
+  }
+}
