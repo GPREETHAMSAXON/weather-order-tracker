@@ -17,7 +17,7 @@ weather-order-tracker/
 │   ├── index.js                 # Entry point — orchestrates the full workflow
 │   └── services/
 │       ├── weatherService.js    # OpenWeatherMap API integration
-│       ├── aiService.js         # Google Gemini AI integration
+│       ├── aiService.js         # Groq/Llama AI integration
 │       └── orderProcessor.js    # Core "Golden Flow" delay logic
 ├── .env.example                 # Template for environment variables
 ├── .gitignore
@@ -33,7 +33,7 @@ weather-order-tracker/
 
 - **Node.js** v18+ (uses native `fetch`)
 - **OpenWeatherMap API Key** (free) → [Get one here](https://openweathermap.org/api)
-- **Google Gemini API Key** (free) → [Get one here](https://aistudio.google.com/apikey)
+- **Groq API Key** (free) → [Get one here](https://console.groq.com)
 
 ### Setup
 
